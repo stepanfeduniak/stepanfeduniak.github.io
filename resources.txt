@@ -1,0 +1,43 @@
+## Theoretical Deep/Reinforcement Learning Courses
+
+(Must) Sergey Levine Deep Learning course:
+https://youtube.com/playlist?list=PL_iWQOsE6TfVmKkQHucjPAoRtIJYt8a5A&si=Y_C179wPPjPrPZZN
+(Must) Sergey Levine Reinforcement Learning course:
+https://youtube.com/playlist?list=PL_iWQOsE6TfVYGEGiAOMaOzzv41Jfm_Ps&si=q8UL2PM76CNIYVYA
+
+(Optional) Mathematical Foundations of Reinforcement Learning
+https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning
+
+## Diffusion for Generative Modelling
+
+MIT Diffusion course 2025:
+https://diffusion.csail.mit.edu/2025/index.html
+MIT Diffusion course 2026:
+https://diffusion.csail.mit.edu/2026/index.html
+
+## LLM
+Stanford LLM course:
+https://youtu.be/Q86qzJ1K1Ss?si=1mnDJuVLNIObHXnc
+
+## Practical courses
+DeepLearning.AI:
+https://www.deeplearning.ai/courses/
+https://huggingface.co/learn
+
+Karpathy LLM Zero to Hero:
+https://youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&si=hEFY_m1G3w6i2PQ3
+
+## Robotics
+
+Robotics papers explaining:
+https://www.youtube.com/@RoboPapers
+
+X accounts:
+https://x.com/svlevine
+https://x.com/chelseabfinn
+
+
+
+
+
+
