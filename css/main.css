@@ -89,6 +89,10 @@ video {
   vertical-align: baseline;
 }
 
+html {
+  overflow-y: scroll;
+}
+
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
