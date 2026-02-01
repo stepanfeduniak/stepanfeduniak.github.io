@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <link rel="icon" href="images/pfp.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Title -->
+    <title>Stepan Feduniak</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1000">
+
+    <!-- Isotope JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body id="body">
+
+    <div id="main">
+        <div id="intro">
+            <div id="intro-image">
+                <img src="images/pfp.png">
+            </div>
+            <div id="intro-text">
+                <h1>Stepan Feduniak</h1>
+                <p>
+                    I am a Bachelor student in Mathematics at the <b>Technical University of Munich (TUM)</b>.
+                    <br><br>
+                    My research interests are primarily focused on <b>Robot Learning</b>, specifically working on
+                    reinforcement learning for <b>Vision-Language-Action (VLA)</b> models at the <b>Learning Systems and
+                        Robotics (LSR) lab</b> at TUM.
+                    <br><br>
+                    I am passionate about the intersection of mathematics, robotics, and machine intelligence, and I am
+                    currently in my first year of undergraduate studies.
+                    <br><br>
+                    <a href="mailto:stepanfedunyak@gmail.com">
+                        <span class="icon"><i class="fas fa-envelope"></i></span>
+                        Email
+                    </a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="https://github.com/stepanfeduniak">
+                        <span class="icon"><i class="fab fa-github"></i></span>
+                        GitHub
+                    </a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="https://www.linkedin.com/in/stepan-feduniak-b33045276/">
+                        <span class="icon"><i class="fab fa-linkedin"></i></span>
+                        LinkedIn
+                    </a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="https://x.com/FeduniakS">
+                        <span class="icon"><i class="fab fa-twitter"></i></span>
+                        Twitter (X)
+                    </a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="files/CV_stepan.pdf">
+                        <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                        CV
+                    </a>
+                </p>
+            </div>
+        </div>
+
+        <div id="filters" class="button-group">
+            <button class="button is-checked" data-filter=".publication">Research & Projects</button>
+            <button class="button" data-filter=".talk">Talks</button>
+            <button class="button" data-filter=".misc">Misc</button>
+        </div>
+
+        <div class="grid show">
+
+            <!-- Initial Placeholder for Projects -->
+            <div class="list-item publication" data-category="publication">
+                <div class="project-description">
+                    <h3><a>Scaling Reinforcement Learning for VLA Models</a></h3>
+                    <p>
+                        I am currently working on scaling reinforcement learning techniques to enable robots to
+                        understand and act upon complex multi-modal instructions at the LSR lab.
+                        <br>
+                        <i>Ongoing Project, Technical University of Munich</i><br>
+                    </p>
+                </div>
+            </div>
+
+            <!-- Placeholder for future items -->
+            <div class="list-item publication" data-category="publication">
+                <div class="project-description" style="color: #6b7280; font-style: italic;">
+                    Additional publications and projects coming soon...
+                </div>
+            </div>
+
+        </div>
+
+        <br>
+        <div id="footer">© 2026 Stepan Feduniak</div>
+        <br><br>
+    </div>
+
+    <script>
+        // Isotope grid.
+        var $grid = $('.grid').isotope({
+            itemSelector: '.list-item',
+            layoutMode: 'fitRows',
+            transitionDuration: 0,
+            stagger: 10,
+            initLayout: true
+        });
+
+        // Bind filter button click.
+        $('#filters').on('click', 'button', function () {
+            var filterValue = $(this).attr('data-filter');
+            $grid.isotope({ filter: filterValue });
+        });
+
+        // Change is-checked class on buttons.
+        $('.button-group').each(function (i, buttonGroup) {
+            var $buttonGroup = $(buttonGroup);
+            $buttonGroup.on('click', 'button', function () {
+                $buttonGroup.find('.is-checked').removeClass('is-checked');
+                $(this).addClass('is-checked');
+            });
+        });
+    </script>
+</body>
+
+</html>
