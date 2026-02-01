@@ -37,14 +37,13 @@
             <div id="intro-text">
                 <h1>Stepan Feduniak</h1>
                 <p>
-                    I am a Bachelor student in Mathematics at the <b>Technical University of Munich (TUM)</b>.
+                    I work on reinforcement learning for Vision–Language–Action (VLA) models at the <b>Learning Systems
+                        and Robotics (LSY) lab</b> at the <b>Technical University of Munich (TUM)</b>.
                     <br><br>
-                    My research interests are primarily focused on <b>Robot Learning</b>, specifically working on
-                    reinforcement learning for <b>Vision-Language-Action (VLA)</b> models at the <b>Learning Systems and
-                        Robotics (LSR) lab</b> at TUM.
+                    Alongside this work, I am a first-year Bachelor student in Mathematics at TUM.
                     <br><br>
-                    I am passionate about the intersection of mathematics, robotics, and machine intelligence, and I am
-                    currently in my first year of undergraduate studies.
+                    I have a strong interest in the intersection of mathematics and robotics, particularly in enabling
+                    the robot learning from real-world interaction.
                     <br><br>
                     <a href="mailto:stepanfedunyak@gmail.com">
                         <span class="icon"><i class="fas fa-envelope"></i></span>
@@ -60,7 +59,7 @@
                     </a>&nbsp;&nbsp;&nbsp;&nbsp;
                     <a href="https://x.com/FeduniakS">
                         <span class="icon"><i class="fab fa-twitter"></i></span>
-                        Twitter (X)
+                        X (twitter)
                     </a>&nbsp;&nbsp;&nbsp;&nbsp;
                     <a href="files/CV_stepan.pdf">
                         <span class="icon"><i class="fas fa-file-pdf"></i></span>
@@ -71,30 +70,119 @@
         </div>
 
         <div id="filters" class="button-group">
-            <button class="button is-checked" data-filter=".publication">Research & Projects</button>
-            <button class="button" data-filter=".talk">Talks</button>
-            <button class="button" data-filter=".misc">Misc</button>
+            <button class="button is-checked" data-filter=".highlight">Highlights</button>
+            <button class="button" data-filter=".project">Projects</button>
+            <button class="button" data-filter=".writing">Writing</button>
+            <button class="button" data-filter=".experience">Experience</button>
         </div>
 
         <div class="grid show">
 
-            <!-- Initial Placeholder for Projects -->
-            <div class="list-item publication" data-category="publication">
+
+            <!-- Researcher LSY (Experience, Highlight) -->
+            <div class="list-item experience highlight" data-category="experience">
                 <div class="project-description">
-                    <h3><a>Scaling Reinforcement Learning for VLA Models</a></h3>
-                    <p>
-                        I am currently working on scaling reinforcement learning techniques to enable robots to
-                        understand and act upon complex multi-modal instructions at the LSR lab.
-                        <br>
-                        <i>Ongoing Project, Technical University of Munich</i><br>
-                    </p>
+                    <h3><a href="https://www.lsr.ei.tum.de/en/lsr/home/">Researcher, Learning Systems and Robotics (LSY)
+                            lab, TUM</a></h3>
+                    <div class="item-meta">
+                        <span class="date">Nov 2025 - Present</span>
+                        <span class="location">Technical University of Munich</span>
+                    </div>
+                    <div class="item-content">
+                        <p>Real World Reinforcement Learning for Vision-Language-Action (VLA) models.</p>
+                    </div>
                 </div>
             </div>
 
-            <!-- Placeholder for future items -->
-            <div class="list-item publication" data-category="publication">
-                <div class="project-description" style="color: #6b7280; font-style: italic;">
-                    Additional publications and projects coming soon...
+            <!-- B.Sc. Mathematics (Experience) -->
+            <div class="list-item experience" data-category="experience">
+                <div class="project-description">
+                    <h3><a href="https://www.tum.de/">B.Sc. Mathematics, Technical University of Munich</a></h3>
+                    <div class="item-meta">
+                        <span class="date">Oct 2025 - Present</span>
+                        <span class="location">Technical University of Munich</span>
+                    </div>
+                    <div class="item-content">
+                        <p>First-year bachelor student in Mathematics.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- LeRobot (Project) -->
+            <div class="list-item project" data-category="project">
+                <div class="project-description">
+                    <h3><a href="https://github.com/stepanfeduniak/recap-lerobot">RECAP: Pi0.6 Implementation for
+                            LeRobot</a></h3>
+                    <div class="item-meta">
+                        <span class="date">Feb 2026</span>
+                        <span class="location">GitHub Repository / Open Source</span>
+                    </div>
+                    <div class="item-content">
+                        <p>Implementation of the RECAP method from the Pi0.6 paper into the LeRobot.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hackathon (Project, Highlight) -->
+            <div class="list-item project highlight" data-category="project">
+                <div class="project-description">
+                    <h3><a href="projects/humanoid-hackathon/index.html">Humanoid Manipulation Hackathon (Winner)</a>
+                    </h3>
+                    <div class="item-meta">
+                        <span class="date">Sept 2025</span>
+                        <span class="location">Siemens Challenge Winner / LeRobot</span>
+                    </div>
+                    <div class="item-content">
+                        <p>Won the Siemens challenge by implementing BESO and explainability for VLA for robust fuse
+                            mounting. [Read more on <a
+                                href="https://www.linkedin.com/posts/stepan-feduniak-b33045276_last-week-i-participated-in-the-humanoid-activity-7376529938738331648-NyIO">LinkedIn</a>]
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- KIT Research (Experience, Highlight) -->
+            <div class="list-item experience highlight" data-category="experience">
+                <div class="project-description">
+                    <h3><a href="https://irl.iar.kit.edu/">Research Assistant, Intuitive Robots Lab (IRL), KIT</a></h3>
+                    <div class="item-meta">
+                        <span class="date">May 2025 – Oct 2025</span>
+                        <span class="location">Karlsruhe Institute of Technology (KIT)</span>
+                    </div>
+                    <div class="item-content">
+                        <p>Worked on integrating tactile sensing into flow-matching and Vision-Language-Action (VLA)
+                            policies with hierarchical models.</p>
+                        <ul>
+                            <li>Fine-tuned and deployed VLA models (GrootN1, SmolVLA, FlowerVLA, Pi0) on a Franka Emika
+                                Panda robot.</li>
+                            <li>Implemented multi-modal sensor fusion approaches.</li>
+                            <li>Analyzed tactile embeddings from different models.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Olympiad Math (Experience) -->
+            <div class="list-item experience" data-category="experience">
+                <div class="project-description">
+                    <h3><a>Olympiad Mathematics Blog & Tutoring</a></h3>
+                    <div class="item-meta">
+                        <span class="date">Apr 2024 – Sep 2025</span>
+                        <span class="location">Lviv, Ukraine</span>
+                    </div>
+                    <div class="item-content">
+                        <p>Founded a math club and led a volunteer math Olympiad preparation tutoring team.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Writing Section Placeholder -->
+            <div class="list-item writing" data-category="writing">
+                <div class="project-description">
+                    <h3>Blogposts soon</h3>
+                    <div class="item-content">
+                        <p>I am starting to write down some of my thoughts and technical deep-dives. Stay tuned!</p>
+                    </div>
                 </div>
             </div>
 
@@ -112,7 +200,8 @@
             layoutMode: 'fitRows',
             transitionDuration: 0,
             stagger: 10,
-            initLayout: true
+            initLayout: true,
+            filter: '.highlight' // Default to highlights
         });
 
         // Bind filter button click.

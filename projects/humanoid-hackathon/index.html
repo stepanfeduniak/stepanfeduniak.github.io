@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <link rel="icon" href="../../images/pfp.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../style.css">
+
+    <title>Humanoid Manipulation Hackathon | Stepan Feduniak</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1000">
+</head>
+
+<body id="body">
+    <div id="main">
+        <!-- Back Button -->
+        <a href="../../index.html" class="back-button">← Back to Home</a>
+
+        <!-- Project Content -->
+        <div class="project-page">
+            <h1>Humanoid Manipulation Hackathon (Winner)</h1>
+
+            <div class="project-meta">
+                <span class="date">Sept 2025</span>
+                <span class="location">Siemens Challenge Winner, Munich</span>
+            </div>
+
+            <div class="project-description-full">
+                <p>
+                    Participated in the Humanoid Manipulation Hackathon in Munich as a one-person team and won the
+                    <b>Siemens Challenge</b>.
+                </p>
+
+                <h3>The Challenge</h3>
+                <p>
+                    The task involved picking up randomly scattered electric fuses from a table and precisely mounting
+                    them onto a DIN rail. This required high precision and robustness to varying initial conditions.
+                </p>
+
+                <h3>My Solution: BESO x LeRobot</h3>
+                <p>
+                    I implemented <b>BESO</b> (Behavior Evaluation and Synthesis via Optimal Control), a simple yet
+                    powerful baseline policy, and adapted it for the <b>LeRobot</b> framework.
+                </p>
+                <ul>
+                    <li><b>Explainability</b>: Used XAI techniques to ensure the policy was effectively using all sensor
+                        modalities (visual, language, etc.) rather than just memorizing a single trajectory.</li>
+                    <li><b>Robustness</b>: The final policy could instantly recover from failures and continue working
+                        in a closed-loop fashion.</li>
+                </ul>
+
+                <h3>Links</h3>
+                <p>
+                    <a href="https://github.com/Manufex/lerobot">LeRobot Adaptation</a> &bull;
+                    <a href="https://moritzreuss.github.io/beso_website/">BESO Research</a> &bull;
+                    <a
+                        href="https://www.linkedin.com/posts/stepan-feduniak-b33045276_last-week-i-participated-in-the-humanoid-activity-7376529938738331648-NyIO">LinkedIn
+                        Post</a>
+                </p>
+
+                <p class="thanks">
+                    Huge thanks to the <i>Poke and Wiggle</i> and <i>RoboTUM</i> teams, Nicolas Keller, Jose Ramon
+                    Medina Hernandez, Pasha Rizali, and Hardik Kevadiya for organizing; and to BMW Group, Siemens,
+                    Hugging Face, and NVIDIA for the support!
+                </p>
+            </div>
+        </div>
+
+        <br>
+        <div id="footer">© 2026 Stepan Feduniak</div>
+        <br><br>
+    </div>
+</body>
+
+</html>

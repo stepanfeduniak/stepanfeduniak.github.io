@@ -1,18 +1,86 @@
 /* CSS Reset: http://meyerweb.com/eric/tools/css/reset */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -20,9 +88,19 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
@@ -32,30 +110,39 @@ footer, header, hgroup, menu, nav, section {
 body {
   line-height: 1;
   overflow-x: hidden;
-  background-color: #fafafa; /* Modern light gray background */
+  background-color: #fafafa;
+  /* Modern light gray background */
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
-blockquote, q {
+
+blockquote,
+q {
   quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
   content: '';
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-#body{
+#body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   font-size: 1em;
   line-height: 1.6em;
-  color: #2c3e50; /* Softer dark for text */
+  color: #2c3e50;
+  /* Softer dark for text */
   font-weight: 400;
   background-color: #fafafa;
 }
@@ -67,18 +154,24 @@ table {
   min-height: 100vh;
   padding: 0 2em; */
 
-  width: 100%; /* Use full width */
-  max-width: 59em; /* Set a maximum width */
-  margin: 0 auto; /* Center the main content */
+  width: 100%;
+  /* Use full width */
+  max-width: 59em;
+  /* Set a maximum width */
+  margin: 0 auto;
+  /* Center the main content */
   position: relative;
   min-height: 100vh;
-  padding: 0 2em; /* Add horizontal padding */
-  background-color: #fefdfb; /* Very subtle beige background */
+  padding: 0 2em;
+  /* Add horizontal padding */
+  background-color: #fefdfb;
+  /* Very subtle beige background */
 }
 
 a {
   text-decoration: none;
-  color: #4361ee; /* Modern indigo-blue accent */
+  color: #4361ee;
+  /* Modern indigo-blue accent */
   transition: all 0.2s ease-in-out;
 }
 
@@ -94,50 +187,66 @@ i {
 
 b {
   font-weight: 500;
-  color: #1a1a1a; /* Ensure bold text is black */
+  color: #1a1a1a;
+  /* Ensure bold text is black */
 }
 
 h1 {
-  font-size: 2.5em; /* Slightly increased from 2.4em */
-  line-height: 1.7em; /* Slightly increased from 1.6em */
+  font-size: 2.5em;
+  /* Slightly increased from 2.4em */
+  line-height: 1.7em;
+  /* Slightly increased from 1.6em */
   font-weight: 450;
-  color: #1a1a1a; /* Black for main heading */
+  color: #1a1a1a;
+  /* Black for main heading */
 }
 
 /**************************************************/
 /* Profile image and description. */
 
 #intro {
-  padding-top: 4em; /* Increased from 3em */
+  padding-top: 4em;
+  /* Increased from 3em */
   display: flex;
   flex-wrap: wrap;
-  padding-bottom:2em; /* Increased from 1em */
-  flex-direction: row; /* Changed from row-reverse to put image on left */
-  
+  padding-bottom: 2em;
+  /* Increased from 1em */
+  flex-direction: row;
+  /* Changed from row-reverse to put image on left */
+
 }
 
 #intro-text {
   width: 40em;
-  margin-left:1em; /* Changed from margin-right to margin-left */
-  font-size:1em;
-  color: #374151; /* Dark gray for intro text */
-  line-height:1.45em; /* Slightly increased from 1.4em */
+  margin-left: 1em;
+  /* Changed from margin-right to margin-left */
+  font-size: 1em;
+  color: #374151;
+  /* Dark gray for intro text */
+  line-height: 1.45em;
+  /* Slightly increased from 1.4em */
 }
 
 #intro-image {
-  
-  margin: 0em 0; /* Add margin for spacing */
-  padding-top: 0.8em; /* Slightly increased from 0.5em */
-  width: 80%; /* Adjust image width */
-  height: auto; /* Maintain aspect ratio */
-  flex: 1 1 11em; /* Allow the image to grow and shrink */
-  
+
+  margin: 0em 0;
+  /* Add margin for spacing */
+  padding-top: 0.8em;
+  /* Slightly increased from 0.5em */
+  width: 80%;
+  /* Adjust image width */
+  height: auto;
+  /* Maintain aspect ratio */
+  flex: 1 1 11em;
+  /* Allow the image to grow and shrink */
+
 }
 
 #intro-image img {
   width: 14em;
-  border-radius: 12px; /* Soft rounded corners instead of circle for a different look */
-  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  /* Soft rounded corners instead of circle for a different look */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 /**************************************************/
@@ -151,18 +260,21 @@ h1 {
 .menu-item {
   float: left;
   margin-right: 2em;
-  
+
 }
 
 h2 {
-  font-size: 1.4em; /* Increased from 1.3em */
+  font-size: 1.4em;
+  /* Increased from 1.3em */
   line-height: 2.4em;
   margin-top: 0.5em;
-  color: #6b7280; /* Medium gray for inactive headings */
+  color: #6b7280;
+  /* Medium gray for inactive headings */
 }
 
 .selected h2 {
-  color: #1a1a1a; /* Black for selected headings */
+  color: #1a1a1a;
+  /* Black for selected headings */
 }
 
 /* Position buttons right under intro */
@@ -178,15 +290,20 @@ h2 {
   cursor: pointer;
   border: none;
   background: none;
-  color: #6b7280; /* Medium gray for inactive buttons */
-  font-size: 1.3em; /* Increased from 1.2em */
+  color: #6b7280;
+  /* Medium gray for inactive buttons */
+  font-size: 1.3em;
+  /* Increased from 1.2em */
   line-height: 2.4em;
   margin-top: 0.5em;
-  margin-right: 1.5em; /* Increased spacing */
-  float: none; /* Remove float for centered layout */
+  margin-right: 1.5em;
+  /* Increased spacing */
+  float: none;
+  /* Remove float for centered layout */
   padding: 0;
-  font-family: "Georgia", "Times New Roman", serif; /* More research-oriented serif font */
-  font-weight:400;
+  font-family: "Georgia", "Times New Roman", serif;
+  /* More research-oriented serif font */
+  font-weight: 400;
   transition: all 0.3s ease;
 }
 
@@ -198,7 +315,8 @@ h2 {
 
 .button:active,
 .button.is-checked {
-  color: #1a1a1a; /* Black for active/checked buttons */
+  color: #1a1a1a;
+  /* Black for active/checked buttons */
   font-weight: 500;
   position: relative;
 }
@@ -226,7 +344,8 @@ h2 {
 /* Hide content initially */
 .grid {
   padding-bottom: 6em;
-  display: none; /* Hidden by default */
+  display: none;
+  /* Hidden by default */
 }
 
 .grid.show {
@@ -239,6 +358,7 @@ h2 {
     opacity: 0;
     transform: translateY(30px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -254,7 +374,8 @@ h2 {
 
 .description {
   margin-bottom: 1em;
-  color: #374151; /* Dark gray for descriptions */
+  color: #374151;
+  /* Dark gray for descriptions */
 }
 
 .list-item {
@@ -265,19 +386,58 @@ h2 {
 }
 
 .list-item:hover {
-  transform: translateX(5px); /* Subtle slide on hover */
+  transform: translateX(5px);
+  /* Subtle slide on hover */
 }
 
-.list-item p.date {
+.list-item .date {
   display: inline-block;
-  width: 4em;
+  width: auto;
+  min-width: 4em;
   color: #4361ee;
   font-weight: 600;
   background: rgba(67, 97, 238, 0.1);
-  padding: 4px 8px;
+  padding: 4px 10px;
   border-radius: 6px;
-  font-size: 0.85em;
+  font-size: 0.8em;
   text-align: center;
+  margin-right: 0.8em;
+}
+
+.item-meta {
+  margin: 0.5em 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5em;
+}
+
+.item-meta .location {
+  font-size: 0.9em;
+  color: #64748b;
+  font-style: italic;
+}
+
+.item-content {
+  margin-top: 0.5em;
+  color: #334155;
+  line-height: 1.6em;
+}
+
+.item-content p {
+  margin-bottom: 0.5em;
+}
+
+.item-content ul {
+  list-style-type: disc;
+  margin-left: 1.5em;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+}
+
+.item-content li {
+  margin-bottom: 0.3em;
+  padding-left: 0.2em;
 }
 
 /**************************************************/
@@ -293,7 +453,8 @@ h2 {
 
 .previews video {
   border-radius: 5px;
-  border: 2px solid #e5e7eb; /* Light gray border */
+  border: 2px solid #e5e7eb;
+  /* Light gray border */
 }
 
 .previews a:hover {
@@ -304,10 +465,12 @@ h2 {
   grid-column: 1;
   width: 100%;
 }
+
 .preview2 {
   grid-column: 2;
   width: 100%;
 }
+
 .preview3 {
   grid-column: 3;
   width: 100%;
@@ -321,18 +484,20 @@ h2 {
 }
 
 .toggle-button a {
-  color: #6b7280; /* Medium gray for toggle buttons */
+  color: #6b7280;
+  /* Medium gray for toggle buttons */
 }
 
 .toggle-button a:hover {
-  color: #3a9aaa; /* Darker teal-blue on hover */
+  color: #3a9aaa;
+  /* Darker teal-blue on hover */
 }
 
 /**************************************************/
 /* Publication details (thumbnail media, title, and description). */
 
 .thumbnail {
-/*  width: 21%;*/
+  /*  width: 21%;*/
   width: 18%;
   float: left;
   margin-right: 2%;
@@ -341,7 +506,8 @@ h2 {
 
 .thumbnail:hover {
   border-bottom: none;
-  transform: translateY(-2px); /* Subtle lift on hover */
+  transform: translateY(-2px);
+  /* Subtle lift on hover */
 }
 
 .thumbnail img {
@@ -349,12 +515,14 @@ h2 {
   border-radius: 5px;
   width: 100%;
   height: 100%;
-  border: 1px solid #e5e7eb; /* Light gray border */
+  border: 1px solid #e5e7eb;
+  /* Light gray border */
   transition: box-shadow 0.3s ease;
 }
 
 .thumbnail:hover img {
-  box-shadow: 0 4px 12px rgba(58, 154, 170, 0.15); /* Updated shadow with darker color */
+  box-shadow: 0 4px 12px rgba(58, 154, 170, 0.15);
+  /* Updated shadow with darker color */
 }
 
 .thumbnail video {
@@ -362,26 +530,31 @@ h2 {
   border-radius: 5px;
   width: 100%;
   height: 100%;
-  border: 1px solid #e5e7eb; /* Light gray border */
+  border: 1px solid #e5e7eb;
+  /* Light gray border */
   transition: box-shadow 0.3s ease;
 }
 
 .thumbnail:hover video {
-  box-shadow: 0 4px 12px rgba(58, 154, 170, 0.15); /* Updated shadow with darker color */
+  box-shadow: 0 4px 12px rgba(58, 154, 170, 0.15);
+  /* Updated shadow with darker color */
 }
 
 h3 {
-  font-size:1.15em; /* Increased from 1.1em */
+  font-size: 1.15em;
+  /* Increased from 1.1em */
   line-height: 1.5em;
   font-weight: 400;
 }
 
 h3 a {
-  color: #1a1a1a; /* Black for publication titles */
+  color: #1a1a1a;
+  /* Black for publication titles */
 }
 
 h3 a:hover {
-  color: #3a9aaa; /* Darker teal-blue on hover */
+  color: #3a9aaa;
+  /* Darker teal-blue on hover */
 }
 
 .publication {
@@ -390,9 +563,11 @@ h3 a:hover {
 }
 
 .publication p {
-  font-size: 0.95em; /* Increased from 0.9em */
+  font-size: 0.95em;
+  /* Increased from 0.9em */
   line-height: 1.5em;
-  color: #6b7280; /* Medium gray for publication details */
+  color: #6b7280;
+  /* Medium gray for publication details */
 }
 
 .misc {
@@ -401,9 +576,11 @@ h3 a:hover {
 }
 
 .misc p {
-  font-size: 0.95em; /* Increased from 0.9em */
+  font-size: 0.95em;
+  /* Increased from 0.9em */
   line-height: 1.5em;
-  color: #6b7280; /* Medium gray for misc details */
+  color: #6b7280;
+  /* Medium gray for misc details */
 }
 
 .community {
@@ -412,13 +589,16 @@ h3 a:hover {
 }
 
 .community p {
-  font-size: 0.95em; /* Increased from 0.9em */
+  font-size: 0.95em;
+  /* Increased from 0.9em */
   line-height: 1.5em;
-  color: #6b7280; /* Medium gray for community details */
+  color: #6b7280;
+  /* Medium gray for community details */
 }
 
 .project-description {
-  width: 80%; /* Back to original 80% */
+  width: 80%;
+  /* Back to original 80% */
   float: left;
 }
 
@@ -426,76 +606,100 @@ h3 a:hover {
 /* Subtle footer at the bottom of the page. */
 
 #footer {
-  color: #6b7280; /* Medium gray for footer */
+  color: #6b7280;
+  /* Medium gray for footer */
   position: absolute;
   bottom: 0;
   line-height: 2.5em;
 }
 
 #footer a {
-  color: #6b7280; /* Medium gray for footer links */
+  color: #6b7280;
+  /* Medium gray for footer links */
 }
 
 #footer a:hover {
-  color: #3a9aaa; /* Darker teal-blue on hover */
+  color: #3a9aaa;
+  /* Darker teal-blue on hover */
 }
 
 /**************************************************/
 /* Add this at the end of your CSS file */
 @media (max-width: 900px) {
   #main {
-      width: 90%; /* Adjust main width for smaller screens */
+    width: 90%;
+    /* Adjust main width for smaller screens */
   }
 
   #intro {
-    flex-direction: column; /* Stack intro text and image */
-    align-items: center; /* Center align items */
-    text-align:center
+    flex-direction: column;
+    /* Stack intro text and image */
+    align-items: center;
+    /* Center align items */
+    text-align: center
   }
 
   #intro-image {
-      width: 80%; /* Adjust image width */
-      height: auto; /* Maintain aspect ratio */
-      order: -1; /* Ensure the image appears above the text */
-      display: flex; /* Use flex to center the image */
-      justify-content: center; /* Center the image horizontally */
+    width: 80%;
+    /* Adjust image width */
+    height: auto;
+    /* Maintain aspect ratio */
+    order: -1;
+    /* Ensure the image appears above the text */
+    display: flex;
+    /* Use flex to center the image */
+    justify-content: center;
+    /* Center the image horizontally */
   }
 
   #intro-text {
-      width: 100%; /* Full width for text */
-      text-align: center; /* Center text */
-      margin-right:0em
+    width: 100%;
+    /* Full width for text */
+    text-align: center;
+    /* Center text */
+    margin-right: 0em
   }
 
   .grid {
-      grid-template-columns: repeat(2, 1fr); /* Two columns for smaller screens */
+    grid-template-columns: repeat(2, 1fr);
+    /* Two columns for smaller screens */
   }
 
   .thumbnail {
-      width: 100%; /* Full width for thumbnails */
-      margin-right: 0; /* Remove right margin */
-      margin-bottom:1em;
-      
+    width: 100%;
+    /* Full width for thumbnails */
+    margin-right: 0;
+    /* Remove right margin */
+    margin-bottom: 1em;
+
   }
 
   .list-item {
-      margin-top: 0.5em; /* Reduce margin for list items */
+    margin-top: 0.5em;
+    /* Reduce margin for list items */
   }
 
   .list-item {
-    display: flex; /* Use flexbox for alignment */
-    flex-direction: column; /* Stack items vertically */
-    align-items: left; /* Center align items */
-    width: 100%; /* Ensure full width */
+    display: flex;
+    /* Use flexbox for alignment */
+    flex-direction: column;
+    /* Stack items vertically */
+    align-items: left;
+    /* Center align items */
+    width: 100%;
+    /* Ensure full width */
     line-height: 1em;
     margin-top: 1em;
   }
-  
+
   .list-item video {
-    
-    width: 180px; /* Set a fixed width for videos */
-    height: auto; /* Maintain aspect ratio */
-    max-width: 100%; /* Ensure it doesn't exceed the container width */
+
+    width: 180px;
+    /* Set a fixed width for videos */
+    height: auto;
+    /* Maintain aspect ratio */
+    max-width: 100%;
+    /* Ensure it doesn't exceed the container width */
     /* display:block;
     margin: 0 auto; */
   }
@@ -503,22 +707,102 @@ h3 a:hover {
 
 @media (max-width: 480px) {
   .grid {
-      grid-template-columns: 1fr; /* Single column for very small screens */
+    grid-template-columns: 1fr;
+    /* Single column for very small screens */
   }
 
   h1 {
-      font-size: 1.8em; /* Smaller font size for headings */
+    font-size: 1.8em;
+    /* Smaller font size for headings */
   }
 
   h3 {
-      font-size: 0.9em; /* Smaller font size for subheadings */
+    font-size: 0.9em;
+    /* Smaller font size for subheadings */
   }
 
   #main {
-    width: 90%; /* Adjust main width for smaller screens */
+    width: 90%;
+    /* Adjust main width for smaller screens */
   }
 
 }
 
 /* Remove the subtle accent from the intro section */
 
+/* Project Page Specific Styles */
+
+.back-button {
+  display: inline-block;
+  margin-top: 2em;
+  font-weight: 500;
+  color: #6b7280;
+}
+
+.back-button:hover {
+  color: #4361ee;
+}
+
+.project-page {
+  padding-top: 2em;
+  max-width: 48em;
+  /* Slightly narrower for readability */
+}
+
+.project-page h1 {
+  font-size: 2.2em;
+  margin-bottom: 0.2em;
+}
+
+.project-meta {
+  margin-bottom: 2em;
+  color: #6b7280;
+  font-size: 0.95em;
+}
+
+.project-meta .date {
+  display: inline-block;
+  font-weight: 600;
+  color: #4361ee;
+  background: rgba(67, 97, 238, 0.1);
+  padding: 4px 8px;
+  border-radius: 6px;
+  margin-right: 1em;
+}
+
+.project-media {
+  margin: 2em 0;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e5e7eb;
+}
+
+.project-media img,
+.project-media video {
+  width: 100%;
+  display: block;
+}
+
+.project-description-full {
+  line-height: 1.8em;
+  font-size: 1.05em;
+  color: #374151;
+}
+
+.project-description-full h3 {
+  margin-top: 1.5em;
+  margin-bottom: 0.8em;
+  font-size: 1.3em;
+  color: #1a1a1a;
+}
+
+.project-description-full ul {
+  list-style-type: disc;
+  margin-left: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.project-description-full li {
+  margin-bottom: 0.5em;
+}
